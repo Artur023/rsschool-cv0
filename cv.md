@@ -29,3 +29,7 @@ because it is interesting for me. I like it.
     * HTML Academy
     * React way of samurai. vol1 🥷🏼
     * React way of samurai. vol2 👹
+### **Languages**
+* **Russian** - native
+* **Ukraine** - second native
+* **English** - A1 'in process... A2'
