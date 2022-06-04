@@ -12,3 +12,20 @@ because it is interesting for me. I like it.
 
 > Samurai 'JS' has no goal, only path
 ©Dimuch course 'ReactJS' 🥷🏼
+> ## **My Skills**
+* GIT
+* HTML
+* CSS
+* JS
+* React
+* Redux
+* TypeScript
+* Books
+    * JS for kids 😅
+    * JS Head First
+## **Education in IT**
+* **Courses**
+    * SC 50
+    * HTML Academy
+    * React way of samurai. vol1 🥷🏼
+    * React way of samurai. vol2 👹
