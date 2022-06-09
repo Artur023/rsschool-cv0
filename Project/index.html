@@ -12,23 +12,80 @@
 <body>
   <header>
     <img class="myPhoto" src="/Project/images/I.jpg" alt="my photo" width="250" height="250">
-    <nav class="site-navigation"> 
+    <nav class="site-navigation">
       <ul>
         <li class="site-navigation_item"><a href="#skills">Skills</a></li>
         <li class="site-navigation_item"><a href="#project">Project</a></li>
-        <li class="site-navigation_item"><a href="#experience">Experience</a></li>
-        <li class="site-navigation_item"><a href="#languages">Languages</a></li>
         <li class="site-navigation_item"><a href="#education">Education</a></li>
         <li class="site-navigation_item"><a href="#code">Code</a></li>
+        <li class="site-navigation_item"><a href="#languages">Languages</a></li>
         <li class="site-navigation_item"><a href="#contacts">Contacts</a></li>
       </ul>
     </nav>
   </header>
-  
-  <main>
+
+  <main class="site-main">
+
     <h1>Front-End Developer resume</h1>
-    <section class="more">
+
+    <section id="skills" class="site-main-section_item">
       <h2>Skills</h2>
+      <ul>
+        <li>GIT</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>TypeScript</li>
+        <li>Books
+          <ul>
+            <li>JS for kids😅</li>
+            <li>JS Head First</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="project" class="site-main-section_item">
+      <h2>Project</h2>
+    </section>
+
+    <section id="education" class="site-main-section_item">
+      <h2>Education</h2>
+      <h3>Courses</h3>
+      <ul>
+        <li>SC 50</li>
+        <li>HTML Academy</li>
+        <li>React way of samurai. vol1🥷🏼</li>
+        <li>React way of samurai. vol2 👹</li>
+      </ul>
+    </section>
+
+    <section id="code" class="site-main-section_item">
+      <h2>Code style</h2>
+      <code>
+        <pre>
+          export const WithAuthRedirect = (Component) => {
+            let RedirectComponent = (props) => {
+                if (!props.isAuth) return <Navigate to='/login'/>
+                return <Component {...props}/>
+            }
+            let ConnectWithAuthRedirect = connect(mapStateToProps)(RedirectComponent)
+            return ConnectWithAuthRedirect
+        </pre>
+      </code>
+    </section>
+
+    <section id="languages" class="site-main-section_item">
+      <h2>Languages</h2>
+      <ul>
+        <li>Russian - native</li>
+        <li>Ukraine - second native</li>
+        <li>English - A1 'in process... A2'</li>
+      </ul>
+    </section>
+
   </main>
 </body>
 
