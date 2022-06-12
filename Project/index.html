@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&amp;display=swap" rel="stylesheet">
   <title>Uschapovsky Arthur</title>
 </head>
 
 <body>
   <header>
-    <img class="myPhoto" src="/Project/images/myPhoto.jpg" alt="my photo" width="200" height="250">
     <nav class="site-navigation">
       <ul>
         <li class="site-navigation_item"><a href="#skills">Skills</a></li>
@@ -23,10 +23,13 @@
       </ul>
     </nav>
   </header>
-
+  
   <main class="site-main">
-
-    <h1>Front-End Developer resume</h1>
+    
+    <img class="myPhoto" src="/Project/images/myPhoto.jpg" alt="my photo" width="200" height="250">
+    <h1>Front-End Developer</h1>
+    Hi, I want to be a software engineer because it is interesting for me. I like it. Now i work engineer 3D modeling
+    and 3D print.
 
     <section id="skills" class="site-main-section_item">
       <h2>Skills</h2>
@@ -57,24 +60,26 @@
       <ul>
         <li>SC 50</li>
         <li>HTML Academy</li>
-        <li>React way of samurai. vol1🥷🏼</li>
-        <li>React way of samurai. vol2 👹</li>
+        <li>React way of samurai. vol 1🥷🏼</li>
+        <li>React way of samurai. vol 2 👹</li>
       </ul>
     </section>
 
     <section id="code" class="site-main-section_item">
       <h2>Code style</h2>
-      <code>
-        <pre>
-          export const WithAuthRedirect = (Component) => {
-            let RedirectComponent = (props) => {
-                if (!props.isAuth) return <Navigate to='/login'/>
-                return <Component {...props}/>
+      <pre>
+        <code>
+            Array.prototype.myMap = function (callback) {
+              const result = [];
+              const thisArray = this;
+              for (let i = 0; i < thisArray.length; i++) {
+                result.push(callback(thisArray[i], i, thisArray))
+              }
+              return result
             }
-            let ConnectWithAuthRedirect = connect(mapStateToProps)(RedirectComponent)
-            return ConnectWithAuthRedirect
-        </pre>
-      </code>
+        </code >
+      </pre>
+
     </section>
 
     <section id="languages" class="site-main-section_item">

@@ -1,3 +1,26 @@
-.myPhoto{
-    border-radius: 50%;
+* {
+    position: relative;
+    background-color: #1D262D;
+    color: aliceblue;
+}
+nav ul{
+    display: flex;
+}
+header ul li {
+    justify-content:flex-end;
+    padding: 20px;
+    transition: 5s liner;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    transition: .5s linear;
+
+}
+
+header a:hover {
+    background: purple;
+    font-size: 120%;
 }
