@@ -3,11 +3,24 @@
     background-color: #1D262D;
     color: aliceblue;
 }
-nav ul{
+
+nav ul {
     display: flex;
+    justify-content: flex-end;
+
 }
+
+@media(max-width: 700px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+        text-align: center;
+    }
+}
+
 header ul li {
-    justify-content:flex-end;
     padding: 20px;
     transition: 5s liner;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
