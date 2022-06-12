@@ -73,7 +73,7 @@ a:hover {
     clip: rect(0 0 0 0);
     width: 1px;
     height: 1px;
-    /* margin: -1px; */
+    margin: -1px;
 }
 
 .text-front {
@@ -83,6 +83,7 @@ a:hover {
 
 h2 {
     text-align: center;
+    margin-bottom: 5%;
 }
 
 /* section */
@@ -111,22 +112,42 @@ footer ul {
 
 li.my-github a {
     position: absolute;
-    margin-top: 75px;
+    margin-top: 85px;
 }
 
 /* project */
 .project-description {
     padding: 1%;
+    font-size: 100%;
+    text-align: center;
+}
+
+@media(max-width: 850px) {
+    ul.project-list {
+        flex-direction: column;
+    }
+
+    .project-list_item {
+        width: 50%;
+        height: 50%;
+    }
+
+    .project-description {
+        font-size: 50%;
+    }
+
 }
 
 ul.project-list {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 0;
     margin-top: 0;
 }
 
 ul.project-list li {
-list-style: none;
+    list-style: none;
 }
 
 .project-list_item a img {
