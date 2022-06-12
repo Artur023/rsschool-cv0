@@ -98,6 +98,10 @@ section {
     margin-top: 1%;
 }
 
+.first-section ul{
+    list-style: none;
+}
+
 /* skills */
 
 
