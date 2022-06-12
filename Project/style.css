@@ -4,13 +4,13 @@
     color: aliceblue;
 }
 
+/* menu */
 nav ul {
     display: flex;
-    justify-content: flex-end;
-
+    justify-content: center;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 850px) {
     nav ul {
         display: flex;
         flex-direction: column;
@@ -20,20 +20,72 @@ nav ul {
     }
 }
 
+/* @media(max-width: 700px) {
+    main {
+        margin: auto;
+    }
+} */
+
 header ul li {
     padding: 20px;
     transition: 5s liner;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style: none;
+    font-size: 150%;
 }
 
 header a {
     text-decoration: none;
     transition: .5s linear;
-
+    color: rgb(134, 230, 198);
 }
 
 header a:hover {
     background: purple;
     font-size: 120%;
+}
+
+/* img */
+.div-img-myPhoto {
+    display: flex;
+    justify-content: center;
+}
+
+.myPhoto {
+    height: 45%;
+    width: 45%;
+    border-radius: 5%;
+}
+
+@media(min-width: 515px) {
+    .myPhoto {
+        width: 200px;
+        height: 250px;
+    }
+}
+
+/* h1 */
+.hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    /* margin: -1px; */
+}
+.text-front{
+font-size: 200%;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* section */
+section {
+    margin-top: 40%;
+    font-size: 200%;
+}
+
+.first-section {
+    margin-top: 1%;
 }
