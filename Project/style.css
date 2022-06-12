@@ -3,6 +3,7 @@
     background-color: #1D262D;
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 /* menu */
@@ -111,4 +112,24 @@ footer ul {
 li.my-github a {
     position: absolute;
     margin-top: 75px;
+}
+
+/* project */
+.project-description {
+    padding: 1%;
+}
+
+ul.project-list {
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+}
+
+ul.project-list li {
+list-style: none;
+}
+
+.project-list_item a img {
+    width: 99%;
+    height: 99%;
 }
