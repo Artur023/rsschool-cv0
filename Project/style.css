@@ -32,7 +32,7 @@ header ul li {
     padding: 20px;
     transition: 5s liner;
     list-style: none;
-    font-size: 150%;
+    font-size: 180%;
 
 }
 
@@ -90,15 +90,51 @@ h2 {
 section {
     margin-top: 40%;
     font-size: 190%;
+    line-height: 250%;
+
 }
 
 .first-section {
     margin-top: 1%;
 }
 
+/* skills */
+
+
 /* code */
-.my-code {
+
+#code {
+    line-height: 150%;
+
+}
+
+/* code colors */
+code span {
     font-family: 'Courier New', Courier, monospace
+}
+.green {
+    color: green;
+
+}
+
+.turquoise {
+    color: rgb(50, 179, 244);
+}
+
+.blue {
+    color: rgb(46, 115, 184)
+}
+
+.blue2 {
+    color: rgb(7, 64, 234);
+}
+
+.yellow {
+    color: rgb(244, 244, 148)
+}
+
+.violet {
+    color: rgb(137, 0, 137);
 }
 
 /* footer */
