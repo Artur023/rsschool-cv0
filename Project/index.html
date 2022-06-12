@@ -26,15 +26,15 @@
 
   <main class="site-main">
 
-    <div class="div-img-myPhoto">
-      <img class="myPhoto" src="/Project/images/myPhoto.jpg" alt="my photo" width="250" height="300">
+    <div class="div-img-my-photo">
+      <img class="my-photo" src="/Project/images/myPhoto.jpg" alt="my photo" width="250" height="300">
     </div>
 
     <h1 class="hidden">Uschapovsky Arthur - Front-End Developer resume</h1>
     <h2 class="text-front">Front-End Developer</h2>
     <section class="first-section">
+      <h2>Hi🖖, my name is Arthur.</h2>
       <ul>
-        <h2>Hi🖖, my name is Arthur.</h2>
         <li>I am a beginner Front-End Developer.
           I like it and it's interesting for me.</li>
         <li>Now i work engineer 3D modeling
@@ -83,11 +83,11 @@
     <section id="code" class="site-main-section_item">
       <h2>Code style</h2>
       <pre>
-        <code>
+        <code class="my-code">
             Array.prototype.myMap = function (callback) {
               const result = [];
               const thisArray = this;
-              for (let i = 0; i < thisArray.length; i++) {
+              for (let i = 0; i &lt; thisArray.length; i++) {
                 result.push(callback(thisArray[i], i, thisArray))
               }
               return result
@@ -119,8 +119,14 @@
   </main>
 
   <footer>
-    <!-- в footer есть ссылка на гитхаб автора работы, год создания приложения, логотип курса со ссылкой на курс +10
-Если ссылка в футере ведёт на курс stage0, это не ошибка. -->
+    <ul>
+      <li class="my-github"><a href="https://github.com/Artur023">My github</a></li>
+      <li>
+        <a href="https://rs.school/js/">
+          <img height="200" width="300" src="./images/logo_rs_school_js.svg" alt="logo rs_school">
+        </a>2022
+      </li>
+    </ul>
   </footer>
 </body>
 

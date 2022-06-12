@@ -3,7 +3,6 @@
     background-color: #1D262D;
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 /* menu */
@@ -31,29 +30,29 @@ nav ul {
 header ul li {
     padding: 20px;
     transition: 5s liner;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style: none;
     font-size: 150%;
+
 }
 
-header a {
+a {
     text-decoration: none;
     transition: .5s linear;
     color: rgb(134, 230, 198);
 }
 
-header a:hover {
+a:hover {
     background: purple;
     font-size: 120%;
 }
 
 /* img */
-.div-img-myPhoto {
+.div-img-my-photo {
     display: flex;
     justify-content: center;
 }
 
-.myPhoto {
+.my-photo {
     height: 45%;
     width: 45%;
     border-radius: 5%;
@@ -61,7 +60,7 @@ header a:hover {
 }
 
 @media(min-width: 500px) {
-    .myPhoto {
+    .my-photo {
         width: 200px;
         height: 250px;
     }
@@ -75,8 +74,9 @@ header a:hover {
     height: 1px;
     /* margin: -1px; */
 }
-.text-front{
-font-size: 230%;
+
+.text-front {
+    font-size: 230%;
 
 }
 
@@ -92,4 +92,23 @@ section {
 
 .first-section {
     margin-top: 1%;
+}
+
+/* code */
+.my-code {
+    font-family: 'Courier New', Courier, monospace
+}
+
+/* footer */
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 150%;
+}
+
+
+li.my-github a {
+    position: absolute;
+    margin-top: 75px;
 }
