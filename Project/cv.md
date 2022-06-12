@@ -12,7 +12,7 @@ because it is interesting for me. I like it.
 
 > Samurai 'JS' has no goal, only path
 ©Dimuch course 'ReactJS' 🥷🏼
-> ## **My Skills**
+## **My Skills**
 * GIT
 * HTML
 * CSS
