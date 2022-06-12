@@ -2,6 +2,8 @@
     position: relative;
     background-color: #1D262D;
     color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 /* menu */
@@ -55,9 +57,10 @@ header a:hover {
     height: 45%;
     width: 45%;
     border-radius: 5%;
+    margin-top: 1%;
 }
 
-@media(min-width: 515px) {
+@media(min-width: 500px) {
     .myPhoto {
         width: 200px;
         height: 250px;
@@ -73,7 +76,8 @@ header a:hover {
     /* margin: -1px; */
 }
 .text-front{
-font-size: 200%;
+font-size: 230%;
+
 }
 
 h2 {
@@ -83,7 +87,7 @@ h2 {
 /* section */
 section {
     margin-top: 40%;
-    font-size: 200%;
+    font-size: 190%;
 }
 
 .first-section {
