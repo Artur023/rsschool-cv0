@@ -6,6 +6,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* menu */
 nav ul {
     display: flex;
@@ -98,7 +102,7 @@ section {
     margin-top: 1%;
 }
 
-.first-section ul{
+.first-section ul {
     list-style: none;
 }
 
@@ -109,13 +113,17 @@ section {
 
 #code {
     line-height: 150%;
+}
 
+.my-code {
+    text-align: center;
 }
 
 /* code colors */
 code span {
     font-family: 'Courier New', Courier, monospace
 }
+
 .green {
     color: green;
 
@@ -193,4 +201,15 @@ ul.project-list li {
 .project-list_item a img {
     width: 99%;
     height: 99%;
+}
+
+/* back to top */
+.up {
+    position: relative;
+    font-size: 200%;
+    text-align: center;
+}
+
+.up a p {
+    margin-top: 2px;
 }
