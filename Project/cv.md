@@ -20,17 +20,17 @@ because it is interesting for me. I like it.
 * React
 * Redux
 * TypeScript
+## **Education in IT**
 * Books
     * JS for kids 😅
     * JS Head First
-## **Education in IT**
 * **Courses**
     * SC 50
     * HTML Academy
     * React way of samurai. vol1 🥷🏼
     * React way of samurai. vol2 👹
     * JS/FE Pre-School 2022Q2 (The Rolling Scopes 2022)
-### **Languages**
+## **Languages**
 * **Russian** - native
 * **Ukraine** - second native
 * **English** - A1 'in process... A2'
