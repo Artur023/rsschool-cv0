@@ -32,4 +32,3 @@ because it is interesting for me. I like it.
 ## **Languages**
 * **Russian** - native
 * **Ukraine** - second native
-* **English** - A1 'in process... A2'
