@@ -1,4 +1,6 @@
 # rsschool-cv
-https://artur023.github.io/rsschool-cv/Project/cv
 
-https://artur023.github.io/rsschool-cv/Project/
+https://Artur023.github.io/rsschool-cv/cv
+
+https://Artur023.github.io/rsschool-cv/
+
